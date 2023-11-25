@@ -1,0 +1,45 @@
+.root {
+  display: flex;
+  height: 44px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  background-color: white;
+  z-index: 0;
+
+  &.isRedVariant {
+      background-color: #FEE;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.counter {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+
+
+  font-size: 11px;
+  line-height: 1;
+  padding: 2px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #EF2127;
+  z-index: 1;
+  background-color: white;
+}
+
+.wrapper {
+  position: relative;
+}

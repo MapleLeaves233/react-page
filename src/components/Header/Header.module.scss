@@ -1,0 +1,30 @@
+.root {
+}
+
+.secondRow {
+  position: relative;
+  display: flex;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 13px;
+  padding-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+}
+
+.navLink {
+  color: #707070;
+  // & === .navLink
+
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
