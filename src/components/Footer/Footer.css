@@ -1,0 +1,22 @@
+.main_footer{
+    color:#A0A0A0;
+    background-color: #202020;
+    padding-top: 3em ;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+/* li
+{
+   display:block;
+   float:left;
+   
+} */
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

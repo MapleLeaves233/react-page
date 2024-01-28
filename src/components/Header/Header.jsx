@@ -48,6 +48,7 @@ export const Header = () => {
                 <input type="text" />
 
                 <Button icon={UserIcon}>Профиль</Button>
+                
                 <Button icon={CartIcon}>Корзина</Button>
             </div>
         </Container>

@@ -1,16 +1,23 @@
+import { Footer } from "../Footer/Footer";
 import {Header} from "../Header/Header";
+
 
 export const Layout = ({children}) => {
 
     return <div>
         <Header />
 
-        <main>
+        <main >
+            
+            
+            
             {children}
         </main>
 
         <footer>
-            Footer
+    
+            <Footer/>
+            
         </footer>
     </div>
 }
